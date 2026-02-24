@@ -1,0 +1,352 @@
+Perfeito. Abaixo está um PROMPT MASTER, pensado para IA de desenvolvimento full-stack / product engineering, cujo objetivo é corrigir, completar e elevar o projeto SaaS de saúde para nível de MVP clínico real e vendável.
+
+Este prompt é único, estruturado, executável e pode ser usado em:
+
+ChatGPT (modo desenvolvimento)
+
+Cursor / Windsurf
+
+v0 + backend
+
+Equipa técnica humana (como briefing)
+
+
+
+---
+
+🧠 PROMPT MASTER — Correções e Completação da SaaS de Saúde
+
+🎯 Objetivo Geral
+
+Transformar a landing page e o dashboard demo existentes numa plataforma SaaS de saúde funcional, segura e clinicamente válida, focada em acompanhamento pós-operatório e controlo de medicamentos, pronta para uso real por clínicas, médicos e pacientes.
+
+O frontend já está desenvolvido. O foco agora é backend, compliance, lógica clínica, segurança, monetização e operação.
+
+
+---
+
+1️⃣ Contexto Atual (Estado do Projeto)
+
+Frontend completo (React 19 + Tailwind + shadcn/ui)
+
+Landing page funcional
+
+Dashboard demo interativo
+
+Design clínico minimalista validado
+
+Responsivo e acessível
+
+Nenhum backend real ainda conectado
+
+
+
+---
+
+2️⃣ Tarefas OBRIGATÓRIAS a Implementar
+
+🔐 Autenticação & Perfis (RBAC)
+
+Criar sistema de autenticação com:
+
+Perfis: Paciente, Médico, Clínica/Admin
+
+Login seguro
+
+MFA obrigatório para médicos
+
+Associação paciente ↔ médico ↔ clínica
+
+Gestão de permissões por role
+
+
+
+---
+
+🧬 Modelo Clínico & Lógica Médica
+
+Implementar:
+
+Criação de planos pós-operatórios
+
+Prescrição de medicação:
+
+Dose
+
+Frequência
+
+Duração
+
+
+Check-ins clínicos:
+
+Dor
+
+Temperatura
+
+Sintomas
+
+
+Versionamento de planos
+
+Histórico clínico imutável
+
+
+
+---
+
+🚨 Sistema de Alertas Automatizados
+
+Criar engine de regras clínicas:
+
+Condições configuráveis (ex: febre, dor persistente)
+
+Níveis de alerta:
+
+Informativo
+
+Atenção
+
+Crítico
+
+
+Notificações:
+
+Push
+
+Email
+
+SMS (fallback)
+
+
+Escalonamento automático para médico/clínica
+
+
+
+---
+
+🗄️ Backend & Base de Dados
+
+Criar backend seguro com:
+
+API (REST ou tRPC)
+
+PostgreSQL
+
+Schemas:
+
+Users
+
+Clinics
+
+Patients
+
+Surgeries
+
+Prescriptions
+
+Medications
+
+CheckIns
+
+Alerts
+
+AuditLogs
+
+
+Multi-tenant (isolamento por clínica)
+
+Encriptação em repouso e em trânsito
+
+
+
+---
+
+📜 Compliance & Legal
+
+Implementar:
+
+Consentimento explícito do paciente
+
+Termos de uso e disclaimer médico
+
+Logs de acesso a dados clínicos
+
+Política de retenção de dados
+
+Impossibilidade de apagar dados clínicos (apenas desativar)
+
+
+
+---
+
+💳 Monetização & Planos
+
+Criar:
+
+Planos por clínica
+
+Limites por pacientes ativos
+
+Trial controlado
+
+Página de preços funcional
+
+Sistema de faturação (invoices)
+
+
+
+---
+
+📊 Analytics & Monitorização
+
+Implementar:
+
+Métricas clínicas:
+
+Adesão à medicação
+
+Frequência de alertas
+
+
+Métricas SaaS:
+
+Ativação
+
+Retenção
+
+
+Logs de eventos
+
+
+
+---
+
+🧭 Onboarding & Ativação
+
+Criar:
+
+Fluxo de onboarding por perfil
+
+Templates de cirurgia
+
+Estados vazios guiados
+
+Tutorial inicial interativo
+
+
+
+---
+
+3️⃣ Requisitos Técnicos
+
+Stack sugerida:
+
+Backend: Node.js ou Python
+
+DB: PostgreSQL
+
+Auth: OAuth + MFA
+
+
+Código limpo, modular e documentado
+
+Pronto para escalar
+
+Ambiente: dev / staging / prod
+
+
+
+---
+
+4️⃣ Requisitos Não-Funcionais
+
+Segurança como prioridade
+
+Performance aceitável para clínicas
+
+UX simples para pacientes
+
+Escalável para África / mercados emergentes
+
+Mobile-first
+
+
+
+---
+
+5️⃣ Output Esperado
+
+A IA deve entregar:
+
+1. Arquitetura completa (diagrama lógico)
+
+
+2. Schema da base de dados
+
+
+3. Lógica clínica documentada
+
+
+4. API endpoints principais
+
+
+5. Plano de monetização implementável
+
+
+6. Checklist de compliance
+
+
+7. Roadmap de MVP (30–60 dias)
+
+
+
+
+---
+
+6️⃣ Restrições
+
+Não remover o design existente
+
+Não simplificar lógica clínica crítica
+
+Não assumir regulamentações específicas sem abstração
+
+Não expor dados sensíveis
+
+
+
+---
+
+7️⃣ Critério de Sucesso
+
+O projeto será considerado concluído quando:
+
+Uma clínica puder usar o sistema com pacientes reais
+
+Médicos receberem alertas automáticos
+
+Pacientes receberem lembretes reais
+
+Dados clínicos estiverem protegidos
+
+O sistema puder ser monetizado
+
+
+
+---
+
+🔚 FIM DO PROMPT
+
+Se quiseres, posso:
+
+🔹 Dividir este prompt em prompts menores por módulo
+
+🔹 Adaptá-lo especificamente para Cursor ou v0
+
+🔹 Criar um prompt apenas para backend
+
+🔹 Criar um prompt só para compliance clínico
+
+
+Diz-me como vais usar (IA, equipa ou ambos) que eu ajusto com precisão.
